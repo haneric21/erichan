@@ -4,15 +4,24 @@ import { remineIcon, fbIcon, dexcomIcon, codeSandbox } from "../../../assets";
 import Section from "../components/Section";
 import colors from "../../../colors";
 import TrackVisibility from "react-on-screen";
+import { LAPTOP_WIDTH } from "./DualPane";
 
 const Comapnies = styled.div`
-  margin: 2em;
+  margin: 2em 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   transition: transform 0.5s ease, opacity 0.5s;
   transform: ${({ isVisible }) =>
     !isVisible ? "translateY(-50px)" : "translateY(0)"};
   opacity: ${({ isVisible }) => (!isVisible ? 0 : 100)};
+
+  > :not(:first-child) {
+    margin-left: 2em;
+  }
+
+  @media only screen and (min-width: ${LAPTOP_WIDTH}) {
+    margin: 2em;
+  }
 `;
 
 const AvatarWrapper = styled.div`

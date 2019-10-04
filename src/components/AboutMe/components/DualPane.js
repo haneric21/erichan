@@ -3,15 +3,26 @@ import styled from "styled-components";
 import { Sticky, StickyContainer } from "react-sticky";
 import { mailIcon, linkedinIcon } from "../../../assets";
 
+export const LAPTOP_WIDTH = "961px";
+
 const DualPanelWrapper = styled.div`
   min-height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   font-family: Montserrat;
+
+  @media only screen and (min-width: ${LAPTOP_WIDTH}) {
+    flex-direction: row;
+  }
 `;
 
 const HalfWidthWrapper = styled.div`
-  width: 50%;
+  width: 100%;
+
+  @media only screen and (min-width: ${LAPTOP_WIDTH}) {
+    width: 50%;
+  }
 `;
 
 const StickyPane = styled.div`
@@ -24,14 +35,23 @@ const StickyPane = styled.div`
   color: ${({ color }) => color};
   font-size: 2rem;
   font-weight: 600;
+  position: static !important;
+
+  @media only screen and (min-width: ${LAPTOP_WIDTH}) {
+    position: ${({ style }) => style.position} !important;
+  }
 `;
 
 const ScrollingPane = styled.div`
-  padding: 5rem 7rem;
+  padding: 3rem;
   display: flex;
   flex-direction: column;
   background-color: ${({ backgroundColor }) => backgroundColor};
   font-size: 0.9rem;
+
+  @media only screen and (min-width: ${LAPTOP_WIDTH}) {
+    padding: 5rem 7rem;
+  }
 `;
 
 const ContactInfo = styled.div`
@@ -46,7 +66,7 @@ const DualPane = props => (
   <StickyContainer>
     <DualPanelWrapper>
       <HalfWidthWrapper>
-        <Sticky>
+        <Sticky disableCompensation>
           {({ style }) => (
             <StickyPane
               backgroundColor={props.color}
