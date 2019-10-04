@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/erichan/static/css/main.51baf563.chunk.css",
-    "main.js": "/erichan/static/js/main.24899051.chunk.js",
-    "main.js.map": "/erichan/static/js/main.24899051.chunk.js.map",
+    "main.js": "/erichan/static/js/main.da876288.chunk.js",
+    "main.js.map": "/erichan/static/js/main.da876288.chunk.js.map",
     "runtime~main.js": "/erichan/static/js/runtime~main.91ffb442.js",
     "runtime~main.js.map": "/erichan/static/js/runtime~main.91ffb442.js.map",
-    "static/js/2.bb07e5f8.chunk.js": "/erichan/static/js/2.bb07e5f8.chunk.js",
-    "static/js/2.bb07e5f8.chunk.js.map": "/erichan/static/js/2.bb07e5f8.chunk.js.map",
+    "static/js/2.ba724cef.chunk.js": "/erichan/static/js/2.ba724cef.chunk.js",
+    "static/js/2.ba724cef.chunk.js.map": "/erichan/static/js/2.ba724cef.chunk.js.map",
     "index.html": "/erichan/index.html",
-    "precache-manifest.c04ac9162e91aa266e1357d834eadd40.js": "/erichan/precache-manifest.c04ac9162e91aa266e1357d834eadd40.js",
+    "precache-manifest.58707c74e64b06443f7d7ef982022098.js": "/erichan/precache-manifest.58707c74e64b06443f7d7ef982022098.js",
     "service-worker.js": "/erichan/service-worker.js",
     "static/css/main.51baf563.chunk.css.map": "/erichan/static/css/main.51baf563.chunk.css.map",
     "static/media/codesandbox.svg": "/erichan/static/media/codesandbox.0a83e818.svg",
     "static/media/fb-icon.png": "/erichan/static/media/fb-icon.04d1816b.png",
     "static/media/linkedin.svg": "/erichan/static/media/linkedin.2d0ac4e7.svg",
     "static/media/mail.svg": "/erichan/static/media/mail.9cd6ad8f.svg",
-    "static/media/remine-icon.png": "/erichan/static/media/remine-icon.3d0a7b8d.png"
+    "static/media/remine-icon.png": "/erichan/static/media/remine-icon.3d0a7b8d.png",
+    "static/media/send.svg": "/erichan/static/media/send.d9f34237.svg"
   }
 }

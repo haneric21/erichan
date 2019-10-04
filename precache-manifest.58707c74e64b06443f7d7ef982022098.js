@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f802406fae8ddd0bbe4cf41e748984cc",
+    "revision": "4b03dc0ee0f45695fb0c6566a44b286a",
     "url": "/erichan/index.html"
   },
   {
-    "revision": "dcd209c83d5e80145c37",
+    "revision": "d451bc7c98c31dc3e44e",
     "url": "/erichan/static/css/main.51baf563.chunk.css"
   },
   {
-    "revision": "9a4a51cb790cb8d0c8ff",
-    "url": "/erichan/static/js/2.bb07e5f8.chunk.js"
+    "revision": "2f72bdb7fd78ecfb60cb",
+    "url": "/erichan/static/js/2.ba724cef.chunk.js"
   },
   {
-    "revision": "dcd209c83d5e80145c37",
-    "url": "/erichan/static/js/main.24899051.chunk.js"
+    "revision": "d451bc7c98c31dc3e44e",
+    "url": "/erichan/static/js/main.da876288.chunk.js"
   },
   {
     "revision": "a5a21b8afb0d1d7701bc",
@@ -38,5 +38,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3d0a7b8d9481ea96397b4bb609fdba72",
     "url": "/erichan/static/media/remine-icon.3d0a7b8d.png"
+  },
+  {
+    "revision": "d9f34237336fcf5138cd42bdc0bbd10a",
+    "url": "/erichan/static/media/send.d9f34237.svg"
   }
 ]);
