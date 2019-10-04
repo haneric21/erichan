@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import colors from "../../colors";
+import { sendIcon } from "../../assets";
 
 const Wrapper = styled.div`
   background-color: ${colors.lightDark};
@@ -38,6 +39,18 @@ const ButtonContent = styled.div`
   line-height: 2rem;
 `;
 
+const HoveredContent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const ButtonIcon = styled.img`
+  height: 20px;
+  width: 20px;
+  margin-left: 4px;
+`;
+
 const Footer = () => {
   const [hover, setHover] = useState(false);
   return (
@@ -51,7 +64,9 @@ const Footer = () => {
       >
         <ButtonContent hover={hover}>
           <div>Want to see code?</div>
-          <div>Let's go!</div>
+          <HoveredContent>
+            Ok, let's go! <ButtonIcon src={sendIcon} alt="Send Icon" />
+          </HoveredContent>
         </ButtonContent>
       </CodeButton>
     </Wrapper>
