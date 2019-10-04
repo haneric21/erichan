@@ -1,14 +1,20 @@
 {
-  "main.css": "/erichan/static/css/main.489af33c.chunk.css",
-  "main.js": "/erichan/static/js/main.5fc11a4e.chunk.js",
-  "main.js.map": "/erichan/static/js/main.5fc11a4e.chunk.js.map",
-  "runtime~main.js": "/erichan/static/js/runtime~main.60d5f1ae.js",
-  "runtime~main.js.map": "/erichan/static/js/runtime~main.60d5f1ae.js.map",
-  "static/js/2.65aa1cca.chunk.js": "/erichan/static/js/2.65aa1cca.chunk.js",
-  "static/js/2.65aa1cca.chunk.js.map": "/erichan/static/js/2.65aa1cca.chunk.js.map",
-  "index.html": "/erichan/index.html",
-  "precache-manifest.63497584a8ba267066e59d05719f1bf7.js": "/erichan/precache-manifest.63497584a8ba267066e59d05719f1bf7.js",
-  "service-worker.js": "/erichan/service-worker.js",
-  "static/css/main.489af33c.chunk.css.map": "/erichan/static/css/main.489af33c.chunk.css.map",
-  "static/media/logo.svg": "/erichan/static/media/logo.5d5d9eef.svg"
+  "files": {
+    "main.css": "/erichan/static/css/main.51baf563.chunk.css",
+    "main.js": "/erichan/static/js/main.24899051.chunk.js",
+    "main.js.map": "/erichan/static/js/main.24899051.chunk.js.map",
+    "runtime~main.js": "/erichan/static/js/runtime~main.91ffb442.js",
+    "runtime~main.js.map": "/erichan/static/js/runtime~main.91ffb442.js.map",
+    "static/js/2.bb07e5f8.chunk.js": "/erichan/static/js/2.bb07e5f8.chunk.js",
+    "static/js/2.bb07e5f8.chunk.js.map": "/erichan/static/js/2.bb07e5f8.chunk.js.map",
+    "index.html": "/erichan/index.html",
+    "precache-manifest.c04ac9162e91aa266e1357d834eadd40.js": "/erichan/precache-manifest.c04ac9162e91aa266e1357d834eadd40.js",
+    "service-worker.js": "/erichan/service-worker.js",
+    "static/css/main.51baf563.chunk.css.map": "/erichan/static/css/main.51baf563.chunk.css.map",
+    "static/media/codesandbox.svg": "/erichan/static/media/codesandbox.0a83e818.svg",
+    "static/media/fb-icon.png": "/erichan/static/media/fb-icon.04d1816b.png",
+    "static/media/linkedin.svg": "/erichan/static/media/linkedin.2d0ac4e7.svg",
+    "static/media/mail.svg": "/erichan/static/media/mail.9cd6ad8f.svg",
+    "static/media/remine-icon.png": "/erichan/static/media/remine-icon.3d0a7b8d.png"
+  }
 }
