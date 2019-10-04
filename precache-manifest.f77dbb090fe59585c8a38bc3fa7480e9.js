@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4b03dc0ee0f45695fb0c6566a44b286a",
+    "revision": "a786e8d9c093110ca7641da8b8ff7c43",
     "url": "/erichan/index.html"
   },
   {
