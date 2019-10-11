@@ -24,6 +24,13 @@ const GoodReading = () => (
       description={`A super deep-dive into React and how it runs under the hood.
       Definitely an "extra credit" type of reading for a free Saturday.`}
     />
+    <ReadingLink
+      title="The worst volume control UI"
+      link="https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950"
+      description={
+        "A fun collection of what happens when you have a group of bored developers and designers.."
+      }
+    />
   </Section>
 );
 
