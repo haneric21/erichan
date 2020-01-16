@@ -1,12 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  Skills,
-  Experience,
-  GoodReading,
-  Philosophy,
-  DualPane
-} from "./components";
+import { Skills, GoodReading, Philosophy, DualPane } from "./components";
 import colors from "../../colors";
 
 const Header = styled.h2`
@@ -23,8 +17,8 @@ const ListItem = styled.li`
 const AboutMe = () => (
   <DualPane color={colors.primary} lightColor={colors.white} title="About Me">
     <Header>
-      I'm a software engineer in the D.C. area with a passion for clean,
-      performant code - I also enjoy good design.
+      I'm a software engineer in the Pittsburgh area with a passion for clean,
+      performant code.
     </Header>
     <div>
       <p>
@@ -39,7 +33,6 @@ const AboutMe = () => (
       </p>
     </div>
     <Skills />
-    <Experience />
     <Philosophy />
     <GoodReading />
   </DualPane>
