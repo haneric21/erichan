@@ -1,21 +1,26 @@
 {
   "files": {
     "main.css": "/erichan/static/css/main.51baf563.chunk.css",
-    "main.js": "/erichan/static/js/main.656c8003.chunk.js",
-    "main.js.map": "/erichan/static/js/main.656c8003.chunk.js.map",
-    "runtime~main.js": "/erichan/static/js/runtime~main.91ffb442.js",
-    "runtime~main.js.map": "/erichan/static/js/runtime~main.91ffb442.js.map",
-    "static/js/2.ba724cef.chunk.js": "/erichan/static/js/2.ba724cef.chunk.js",
-    "static/js/2.ba724cef.chunk.js.map": "/erichan/static/js/2.ba724cef.chunk.js.map",
+    "main.js": "/erichan/static/js/main.00ca61cc.chunk.js",
+    "main.js.map": "/erichan/static/js/main.00ca61cc.chunk.js.map",
+    "runtime-main.js": "/erichan/static/js/runtime-main.8c782562.js",
+    "runtime-main.js.map": "/erichan/static/js/runtime-main.8c782562.js.map",
+    "static/js/2.388b0f5c.chunk.js": "/erichan/static/js/2.388b0f5c.chunk.js",
+    "static/js/2.388b0f5c.chunk.js.map": "/erichan/static/js/2.388b0f5c.chunk.js.map",
     "index.html": "/erichan/index.html",
-    "precache-manifest.e5f1e89f539ba93d45fb70e6c36e11d3.js": "/erichan/precache-manifest.e5f1e89f539ba93d45fb70e6c36e11d3.js",
+    "precache-manifest.482cdfcbd6fa59b9caf0e9bbbece1df0.js": "/erichan/precache-manifest.482cdfcbd6fa59b9caf0e9bbbece1df0.js",
     "service-worker.js": "/erichan/service-worker.js",
     "static/css/main.51baf563.chunk.css.map": "/erichan/static/css/main.51baf563.chunk.css.map",
-    "static/media/codesandbox.svg": "/erichan/static/media/codesandbox.0a83e818.svg",
-    "static/media/fb-icon.png": "/erichan/static/media/fb-icon.04d1816b.png",
+    "static/js/2.388b0f5c.chunk.js.LICENSE": "/erichan/static/js/2.388b0f5c.chunk.js.LICENSE",
     "static/media/linkedin.svg": "/erichan/static/media/linkedin.2d0ac4e7.svg",
     "static/media/mail.svg": "/erichan/static/media/mail.9cd6ad8f.svg",
-    "static/media/remine-icon.png": "/erichan/static/media/remine-icon.3d0a7b8d.png",
+    "static/media/ocr-project.png": "/erichan/static/media/ocr-project.9de32b55.png",
     "static/media/send.svg": "/erichan/static/media/send.d9f34237.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8c782562.js",
+    "static/js/2.388b0f5c.chunk.js",
+    "static/css/main.51baf563.chunk.css",
+    "static/js/main.00ca61cc.chunk.js"
+  ]
 }
