@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/erichan/static/css/main.51baf563.chunk.css",
-    "main.js": "/erichan/static/js/main.00ca61cc.chunk.js",
-    "main.js.map": "/erichan/static/js/main.00ca61cc.chunk.js.map",
+    "main.js": "/erichan/static/js/main.f2e11463.chunk.js",
+    "main.js.map": "/erichan/static/js/main.f2e11463.chunk.js.map",
     "runtime-main.js": "/erichan/static/js/runtime-main.8c782562.js",
     "runtime-main.js.map": "/erichan/static/js/runtime-main.8c782562.js.map",
     "static/js/2.388b0f5c.chunk.js": "/erichan/static/js/2.388b0f5c.chunk.js",
     "static/js/2.388b0f5c.chunk.js.map": "/erichan/static/js/2.388b0f5c.chunk.js.map",
     "index.html": "/erichan/index.html",
-    "precache-manifest.482cdfcbd6fa59b9caf0e9bbbece1df0.js": "/erichan/precache-manifest.482cdfcbd6fa59b9caf0e9bbbece1df0.js",
+    "precache-manifest.dce75b6ff874f852cf7df8327200fc42.js": "/erichan/precache-manifest.dce75b6ff874f852cf7df8327200fc42.js",
     "service-worker.js": "/erichan/service-worker.js",
     "static/css/main.51baf563.chunk.css.map": "/erichan/static/css/main.51baf563.chunk.css.map",
     "static/js/2.388b0f5c.chunk.js.LICENSE": "/erichan/static/js/2.388b0f5c.chunk.js.LICENSE",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.8c782562.js",
     "static/js/2.388b0f5c.chunk.js",
     "static/css/main.51baf563.chunk.css",
-    "static/js/main.00ca61cc.chunk.js"
+    "static/js/main.f2e11463.chunk.js"
   ]
 }

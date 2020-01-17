@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0dd33cdd7dacfa7356ee2d1b0be478be",
+    "revision": "82cd5cd0dd915c2bc323393248da2343",
     "url": "/erichan/index.html"
   },
   {
-    "revision": "e6d7165fc8f0526d3a8c",
+    "revision": "4b45aa9a176dd5a6e8fa",
     "url": "/erichan/static/css/main.51baf563.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/erichan/static/js/2.388b0f5c.chunk.js.LICENSE"
   },
   {
-    "revision": "e6d7165fc8f0526d3a8c",
-    "url": "/erichan/static/js/main.00ca61cc.chunk.js"
+    "revision": "4b45aa9a176dd5a6e8fa",
+    "url": "/erichan/static/js/main.f2e11463.chunk.js"
   },
   {
     "revision": "e1606cf3de84c043034b",
