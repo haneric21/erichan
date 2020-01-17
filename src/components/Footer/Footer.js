@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 
 const CodeButton = styled.button`
   border-radius: 3px;
-  width: 200px;
+  width: 150px;
   height: 36px;
   background-color: transparent;
   border: 1px solid ${colors.white};
@@ -63,9 +63,9 @@ const Footer = () => {
         }
       >
         <ButtonContent hover={hover}>
-          <div>Want to see code?</div>
+          <div>Github</div>
           <HoveredContent>
-            Ok, let's go! <ButtonIcon src={sendIcon} alt="Send Icon" />
+            Let's go! <ButtonIcon src={sendIcon} alt="Send Icon" />
           </HoveredContent>
         </ButtonContent>
       </CodeButton>

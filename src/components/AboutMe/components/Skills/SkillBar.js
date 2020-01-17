@@ -4,15 +4,13 @@ import colors from "../../../../colors";
 import TrackVisibility from "react-on-screen";
 
 const BarWrapper = styled.div`
-  display: flex;
-  margin: 1em 0;
-  align-items: center;
+  margin: 1em 0 1em 1em;
 `;
 
 const Bar = styled.div`
   width: ${({ width, isVisible }) => (isVisible ? `${width}%` : "0%")};
   background-color: ${({ color }) => color};
-  height: 25px;
+  height: 7px;
   margin-left: 0.5em;
   border-radius: 5px;
   color: ${colors.white}
@@ -26,9 +24,8 @@ const SkillBar = ({ width, color, name }) => (
   <TrackVisibility once>
     {({ isVisible }) => (
       <BarWrapper>
-        <Bar width={width} color={color} isVisible={isVisible}>
-          {name}
-        </Bar>
+        <div>{name}</div>
+        <Bar width={width} color={color} isVisible={isVisible} />
       </BarWrapper>
     )}
   </TrackVisibility>

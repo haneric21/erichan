@@ -5,8 +5,8 @@ import SkillBar from "./SkillBar";
 
 const Skills = () => (
   <Section title="Skills">
-    <SkillBar name="JavaScript" width={100} color={colors.primary} />
-    <SkillBar name="React" width={90} color={colors.secondary} />
+    <SkillBar name="React" width={100} color={colors.primary} />
+    <SkillBar name="JavaScript" width={90} color={colors.secondary} />
     <SkillBar name="Java" width={60} color={colors.aqua} />
     <SkillBar name="Node" width={40} color={colors.nodeGreen} />
     <SkillBar name="Mobile" width={30} color={colors.androidGreen} />
