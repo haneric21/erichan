@@ -47,7 +47,7 @@ const Hero = () => {
     () =>
       setTimeout(() => {
         setButtonAnimation(true);
-      }, 500),
+      }, 700),
     []
   );
 

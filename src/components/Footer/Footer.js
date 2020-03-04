@@ -34,7 +34,7 @@ const CodeButton = styled.button`
 `;
 
 const ButtonContent = styled.div`
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease;
   transform: ${({ hover }) => (hover ? "translateY(-2rem)" : "translateY(0)")};
   line-height: 2rem;
 `;
